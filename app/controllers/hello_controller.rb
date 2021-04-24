@@ -2,5 +2,6 @@
 
 class HelloController < ApplicationController
   def hello
+    @post = Post.first
   end
 end
